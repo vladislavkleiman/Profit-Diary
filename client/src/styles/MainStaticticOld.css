@@ -1,0 +1,27 @@
+* {
+  font-family: "Cabin", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.containerMainStatistic {
+  width: 84vw;
+  height: 98vh;
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto 1fr;
+  gap: 10px;
+  margin-right: 5px;
+  border: solid 1px greenyellow;
+}
+
+.statistic {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.trades {
+  grid-column: 1 / -1;
+  border: 1px solid #000;
+  padding: 10px;
+}

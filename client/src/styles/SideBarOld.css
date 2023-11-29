@@ -1,0 +1,23 @@
+* {
+  font-family: "Cabin", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.mainSideBar {
+  border: 1px solid black;
+  height: 98vh;
+  width: 14vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+
+  background-color: rgb(192, 192, 192);
+}
+
+.sideBarmenu {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}

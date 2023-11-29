@@ -1,0 +1,9 @@
+.profit-cell {
+  background-color: lightgreen;
+  color: green;
+}
+
+.loss-cell {
+  background-color: lightcoral;
+  color: rgb(181, 5, 5);
+}
